@@ -1,0 +1,26 @@
+div{
+    padding: 10px;
+    position: relative;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    padding-bottom: -20px;
+}
+
+strong{
+    color: rgb(218,26,26);
+    font-size: 3em;
+    position: relative;
+    right: 0px;
+}
+
+p{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+time{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 220px;
+}

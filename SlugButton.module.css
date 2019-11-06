@@ -1,0 +1,60 @@
+button{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    border: 2px solid rgb(230,224,224);
+    border-radius: 10px;
+    width: 420px;
+    height: 50px;
+    background-color: rgb(211,3,3);
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 380px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+@media (min-width:400px){
+    button{
+        width: 75%;
+        height: 20px;
+        justify-content: center;
+        float: middle;
+        position: center;
+        left: 50px;
+        top: 150px;
+        bottom: -20px;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:800px){
+    button{
+        width: 85%;
+        height: 25px;
+        justify-content: center;
+        float: middle;
+        position: center;
+        left: 25px;
+        top: 200px;
+        bottom: -20px;
+        overflow: hidden;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1200px){
+    button{
+        width: 90%;
+        height: 30px;
+        justify-content: center;
+        float: middle;
+        position: center;
+        left: 20px;
+        top: 250px;
+        bottom: -20px;
+        overflow: hidden;
+        font-size: 15px;
+    }
+}

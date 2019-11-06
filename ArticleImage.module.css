@@ -1,0 +1,29 @@
+img{
+    border: 10px solid rgba(214, 10, 10, 0.966);
+    border-radius: 100%;
+    float: left;
+    position: relative;
+    right: -10px;
+    top: 20px;
+}
+
+@media (min-width: 400px){
+    img{
+        height: 100px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 800px){
+    img{
+        height: 100px;
+        width: 180px;
+    }
+}
+
+@media (min-width: 1200px){
+    img{
+        height: 120px;
+        width: 200px;
+    }
+}
